@@ -2,9 +2,9 @@ name: PROJECT-REPO
 
 on:
   push:
-    branches: [ "main", "develop" ]
+    branches: [ "Feature" ]
   pull_request:
-    branches: [ "main", "develop", "feature-createchange"]
+    branches: [ "Feature" ]
  # Allows you to run this workflow manually from the Actions tab
   workflow_call:
 
