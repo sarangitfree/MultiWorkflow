@@ -10,8 +10,6 @@ on:
 jobs:
   call-workflow-passing-data:
    uses: ./.github/workflows/projectrepo..yml
-   with:
-        java-version: '17'
   publish-job:
     runs-on: ubuntu-latest
     steps:
