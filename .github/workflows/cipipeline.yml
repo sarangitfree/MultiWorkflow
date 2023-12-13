@@ -2,9 +2,9 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ "Feature" ]
+    branches: [ "Feature-*" ]
   pull_request:
-    branches: [ "Feature" ]
+    branches: [ "Feature-*" ]
  # Allows you to run this workflow manually from the Actions tab
   workflow_call:
 
